@@ -65,8 +65,26 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun haceLogin() {
-        TODO("Not yet implemented")
+        //recupero la información que el usuario escribió
+        val email = binding.etCorreo.text.toString()
+        val clave = binding.etClave.text.toString()
+
+        //Utilizo el objeto auth para hacer el registro...
+        auth.signInWithEmailAndPassword(email, clave)
+            .addOnCompleteListener(this) { task ->
+                if (task.isSuccessful){
+                    val user = auth.currentUser
+                    refresca(user)
+                } else {
+                    Toast.makeText(baseContext,"Falló",Toast.LENGTH_LONG).show()
+                    refresca(null)
+                }
+            }
     }
 
-
+    //Esto se ejecuta toda vez que se presente el app en la pantallas, valida si hay un usuario autenticado
+    public override fun onStart() {
+        super.onStart()
+        val usuario = auth.currentUser
+    }
 }
