@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Lugares</string>
     <string name="tv_correo">Correo</string>
@@ -59,7 +60,4 @@
     <string name="msg_subiendo_audio">Subiendo Nota Audio</string>
     <string name="msg_subiendo_imagen">Subiendo imagen</string>
     <string name="todo">Luego…</string>
-
-    <string name="defaul_web_client_id_r" translatable="false">549391928617-hnqngo9nc2ee8b1238g935iufbqr5en6.apps.googleusercontent.com</string>
-
 </resources>

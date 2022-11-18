@@ -15,9 +15,9 @@ import java.io.File
 
 class ImagenUtiles (
     private val contexto: Context,
-    private val btPhoto: ImageButton,
-    private val btRotaL: ImageButton,
-    private val btRotaR: ImageButton,
+    btPhoto: ImageButton,
+    btRotaL: ImageButton,
+    btRotaR: ImageButton,
     private val imagen: ImageView,
     private var tomarFotoActivity: ActivityResultLauncher<Intent>
 ) {
