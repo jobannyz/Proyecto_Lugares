@@ -11,7 +11,7 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_lugar">Lugares</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_gallery">Mapa</string>
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -61,5 +61,6 @@
     <string name="todo">Luego…</string>
 
     <string name="defaul_web_client_id_r" translatable="false">549391928617-hnqngo9nc2ee8b1238g935iufbqr5en6.apps.googleusercontent.com</string>
+    <string name="google_map_key" translatable="false">AIzaSyAS8E0E-p54zS9ggj0hGRXsSMtR529W8bs</string>
 
 </resources>
